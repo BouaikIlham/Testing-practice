@@ -5,3 +5,8 @@ const stringLength = (string) => {
     }
    
 }
+
+const reverseString = (string) => {
+    let str = string.split('').reverse('').join('');
+    return str
+}

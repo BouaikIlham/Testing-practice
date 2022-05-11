@@ -16,3 +16,12 @@ test('get string least 1 character long and not longer than 10 characters', () =
     expect(stringLength('food')).toBe(4);
     expect(stringLength('ilhambouaikhaha')).toBeDefined();
 })
+
+
+test('reverse a given string', () => {
+    const reverseString = (string) => {
+        const reverse = string.split('').reverse('').join('');
+        return reverse;
+    }
+    expect(reverseString('shoe')).toBe('eohs');
+})
