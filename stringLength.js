@@ -10,3 +10,11 @@ const reverseString = (string) => {
     let str = string.split('').reverse('').join('');
     return str
 }
+
+
+
+const capitalizeString = (string) => {
+    const str = string;
+    const capitalize= str.charAt(0).toUpperCase() + str.slice(1);
+    return capitalize
+  }
