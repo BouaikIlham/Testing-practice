@@ -23,5 +23,5 @@ test('reverse a given string', () => {
         const reverse = string.split('').reverse('').join('');
         return reverse;
     }
-    expect(reverseString('shoe')).toBe('eohs');
+    expect(reverseString('food')).toBe('doof');
 })
